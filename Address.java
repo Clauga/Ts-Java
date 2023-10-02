@@ -1,13 +1,18 @@
 public class Address {
-    private String number;
+    private int number;
     private String street;
     private String city;
     private String country;
 
-    public String getNumber(){
+    public String continent;
+
+    public Address() {
+
+    }
+    public int getNumber(){
         return number;
     }
-    public void setNumber(String number) {
+    public void setNumber(int number) {
         this.number = number;
     }
     public String getStreet(){

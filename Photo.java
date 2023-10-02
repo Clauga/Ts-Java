@@ -4,6 +4,9 @@ public class Photo {
     private int width;
     private int height;
 
+    public Photo () {
+
+    };
     public String getUrl() {
         return url;
     }
